@@ -1,0 +1,35 @@
+Steps to upload a folder into bitbucket repository:
+
+
+1) Create account on bitbucket.org
+
+2) Create a new repository in bitbucket with version control as "git".
+
+3) Download git bash in your system.
+
+4) Right click on the folder you want to upload in git and Click "Git Bash Here". Git cmd will open.
+
+5) git init
+
+6) git add .
+
+7) git commit -m "First Commit"
+
+8) git status
+
+9) Now go to bitbucket > your repository > CLONE button (on top right side) > copy the URL starting from https://---
+
+10) git remote add origin https://---
+
+11)git push -f origin master
+
+12) Go to your repository at bitbucket and refresh. The files would have been uploaded.
+
+
+Step to download a repository from bitbucket:
+
+1) Copy the URL of the repository you want to download.
+
+2) open git cmd.
+
+3) git clone https://---
